@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F34C0AF25CEE70C007E7B23 /* DPSimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */; };
+		7F34C0B225CEE714007E7B23 /* DPRuleConfigParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */; };
+		7F34C0B525CEE717007E7B23 /* DPRuleConfigSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */; };
+		7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0B825CEE72E007E7B23 /* DPFacotry.m */; };
+		7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */; };
+		7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */; };
+		7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */; };
 		7F8AFC0325CB829C000CE092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC0225CB829C000CE092 /* main.m */; };
 		7F8AFC0C25CB82DE000CE092 /* DPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC0B25CB82DE000CE092 /* DPSingleton.m */; };
 		7F8AFC1525CB8692000CE092 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC1425CB8692000CE092 /* Test.m */; };
@@ -30,6 +37,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F34C0B825CEE72E007E7B23 /* DPFacotry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPFacotry.m; sourceTree = "<group>"; };
+		7F887EE225CEDDB0002E99FF /* DPSimpleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSimpleFactory.h; sourceTree = "<group>"; };
+		7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSimpleFactory.m; sourceTree = "<group>"; };
+		7F887EE725CEDF1D002E99FF /* DPIRuleConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPIRuleConfigParser.h; sourceTree = "<group>"; };
+		7F887EEA25CEDF8D002E99FF /* DPRuleConfigParsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPRuleConfigParsers.h; sourceTree = "<group>"; };
+		7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPRuleConfigParsers.m; sourceTree = "<group>"; };
+		7F887EEF25CEE1E0002E99FF /* DPRuleConfigSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPRuleConfigSource.h; sourceTree = "<group>"; };
+		7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPRuleConfigSource.m; sourceTree = "<group>"; };
 		7F8AFBFF25CB829C000CE092 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8AFC0225CB829C000CE092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F8AFC0A25CB82DE000CE092 /* DPSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSingleton.h; sourceTree = "<group>"; };
@@ -62,6 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F887EE125CEDD89002E99FF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7F887EE225CEDDB0002E99FF /* DPSimpleFactory.h */,
+				7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */,
+				7F887EE725CEDF1D002E99FF /* DPIRuleConfigParser.h */,
+				7F887EEA25CEDF8D002E99FF /* DPRuleConfigParsers.h */,
+				7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */,
+				7F887EEF25CEE1E0002E99FF /* DPRuleConfigSource.h */,
+				7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		7F8AFBF625CB829C000CE092 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,7 @@
 		7F8AFC0125CB829C000CE092 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7F887EE125CEDD89002E99FF /* Factory */,
 				7F8AFC2525CB93EB000CE092 /* Singleton */,
 				7F8AFC0225CB829C000CE092 /* main.m */,
 			);
@@ -96,6 +126,7 @@
 				7F8AFC1625CB8692000CE092 /* Info.plist */,
 				7F8AFC1C25CB870A000CE092 /* DPSingletonTest.m */,
 				7F8AFC2D25CB9645000CE092 /* TestSw.swift */,
+				7F34C0B825CEE72E007E7B23 /* DPFacotry.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -201,8 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */,
+				7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */,
 				7F8AFC2925CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7F8AFC0325CB829C000CE092 /* main.m in Sources */,
+				7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */,
 				7F8AFC0C25CB82DE000CE092 /* DPSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,10 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F34C0AF25CEE70C007E7B23 /* DPSimpleFactory.m in Sources */,
+				7F34C0B225CEE714007E7B23 /* DPRuleConfigParsers.m in Sources */,
+				7F34C0B525CEE717007E7B23 /* DPRuleConfigSource.m in Sources */,
 				7F8AFC2225CB8FF5000CE092 /* DPSingleton.m in Sources */,
 				7F8AFC2E25CB9645000CE092 /* TestSw.swift in Sources */,
 				7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7F8AFC1525CB8692000CE092 /* Test.m in Sources */,
+				7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */,
 				7F8AFC1D25CB870A000CE092 /* DPSingletonTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
