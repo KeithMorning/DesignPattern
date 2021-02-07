@@ -9,6 +9,18 @@
 
 @implementation DPJSONRuleConfigParsers
 
+- (instancetype)initWithFileReader:(id<DPIFile>)filereader{
+    if(self = [super init]){
+       //todo
+    }
+    
+    return self;
+}
+
+- (void)JSONFormat {
+    NSLog(@"a json format config");
+}
+
 - (NSDictionary *)parse{
     return @{
         @"format":@"json"
@@ -18,6 +30,18 @@
 @end
 
 @implementation DPXMLRuleConfigParsers
+
+- (instancetype)initWithFileReader:(id<DPIFile>)filereader{
+    if(self = [super init]){
+       //todo
+    }
+    
+    return self;
+}
+
+- (void)XMLFormat{
+    NSLog(@"a xml format config");
+}
 
 - (NSDictionary *)parse{
     return @{
@@ -30,6 +54,19 @@
 
 @implementation DPYAMLRuleConfigParsers
 
+- (instancetype)initWithFileReader:(id<DPIFile>)filereader{
+    if(self = [super init]){
+       //todo
+    }
+    
+    return self;
+}
+
+- (void)YAMLFormat{
+    NSLog(@"yaml format config");
+}
+
+
 - (NSDictionary *)parse{
     return @{
         @"format":@"yaml"
@@ -40,6 +77,19 @@
 @end
 
 @implementation DPPlistRuleConfigParsers
+
+- (instancetype)initWithFileReader:(id<DPIFile>)filereader{
+    if(self = [super init]){
+       //todo
+    }
+    
+    return self;
+}
+
+- (void)PlistFormat{
+    NSLog(@"a plist format");
+}
+
 
 - (NSDictionary *)parse{
     return @{

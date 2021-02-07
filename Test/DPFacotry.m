@@ -9,6 +9,7 @@
 #import "DPRuleConfigSource.h"
 #import "DPSimpleFactory.h"
 #import "DPRuleConfigParsers.h"
+#import "DPNormalFactory.h"
 
 @interface DPFacotry : XCTestCase
 
@@ -33,6 +34,11 @@
     NSString *file = @"/User/Me/Documents/config.xml";
     NSDictionary *config = [[DPRuleConfigSource new] loadfile:file];
     XCTAssertEqual(config[@"format"], @"xml");
+    
+    NSDictionary *config2 = [[DPRuleConfigSource new] loadfileByNormalFactory:file];
+    XCTAssertEqual(config2[@"format"], @"xml");
+
+    
 }
 
 - (void)testPerformanceExample {

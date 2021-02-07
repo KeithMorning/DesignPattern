@@ -11,6 +11,9 @@
 		7F34C0B225CEE714007E7B23 /* DPRuleConfigParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */; };
 		7F34C0B525CEE717007E7B23 /* DPRuleConfigSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */; };
 		7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0B825CEE72E007E7B23 /* DPFacotry.m */; };
+		7F34C0C825D027E8007E7B23 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0C725D027E8007E7B23 /* DPFileManager.m */; };
+		7F34C0D525D02B82007E7B23 /* DPConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */; };
+		7F34C0DD25D02DD5007E7B23 /* DPNormalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */; };
 		7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */; };
 		7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */; };
 		7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */; };
@@ -22,6 +25,14 @@
 		7F8AFC2925CB942E000CE092 /* SWSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC2825CB942E000CE092 /* SWSingleton.swift */; };
 		7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC2825CB942E000CE092 /* SWSingleton.swift */; };
 		7F8AFC2E25CB9645000CE092 /* TestSw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC2D25CB9645000CE092 /* TestSw.swift */; };
+		7FBBF16425D03E88007CF6B0 /* DPNormalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */; };
+		7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */; };
+		7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0C725D027E8007E7B23 /* DPFileManager.m */; };
+		7FBBF16F25D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */; };
+		7FBBF17025D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */; };
+		7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */; };
+		7FBBF17625D03F4C007CF6B0 /* DPBuiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */; };
+		7FBBF17A25D044BB007CF6B0 /* DPBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +49,14 @@
 
 /* Begin PBXFileReference section */
 		7F34C0B825CEE72E007E7B23 /* DPFacotry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPFacotry.m; sourceTree = "<group>"; };
+		7F34C0C625D027E8007E7B23 /* DPFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPFileManager.h; sourceTree = "<group>"; };
+		7F34C0C725D027E8007E7B23 /* DPFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPFileManager.m; sourceTree = "<group>"; };
+		7F34C0CB25D02801007E7B23 /* DPIFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPIFile.h; sourceTree = "<group>"; };
+		7F34C0D325D02B82007E7B23 /* DPConfigFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPConfigFactory.h; sourceTree = "<group>"; };
+		7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPConfigFactory.m; sourceTree = "<group>"; };
+		7F34C0D825D02BFA007E7B23 /* DPIConfigFacotry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPIConfigFacotry.h; sourceTree = "<group>"; };
+		7F34C0DB25D02DD5007E7B23 /* DPNormalFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPNormalFactory.h; sourceTree = "<group>"; };
+		7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPNormalFactory.m; sourceTree = "<group>"; };
 		7F887EE225CEDDB0002E99FF /* DPSimpleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSimpleFactory.h; sourceTree = "<group>"; };
 		7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSimpleFactory.m; sourceTree = "<group>"; };
 		7F887EE725CEDF1D002E99FF /* DPIRuleConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPIRuleConfigParser.h; sourceTree = "<group>"; };
@@ -57,6 +76,12 @@
 		7F8AFC2725CB942E000CE092 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
 		7F8AFC2825CB942E000CE092 /* SWSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SWSingleton.swift; path = Test/SWSingleton.swift; sourceTree = SOURCE_ROOT; };
 		7F8AFC2D25CB9645000CE092 /* TestSw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSw.swift; sourceTree = "<group>"; };
+		7FBBF15A25D032D0007CF6B0 /* DPISYSConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPISYSConfigParser.h; sourceTree = "<group>"; };
+		7FBBF16D25D03EE9007CF6B0 /* DPBuilderConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBuilderConfig.h; sourceTree = "<group>"; };
+		7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuilderConfig.m; sourceTree = "<group>"; };
+		7FBBF17325D03F4C007CF6B0 /* DPBuiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBuiler.h; sourceTree = "<group>"; };
+		7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuiler.m; sourceTree = "<group>"; };
+		7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuilderTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,18 +102,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F887EE125CEDD89002E99FF /* Factory */ = {
+		7F34C0C525D0274F007E7B23 /* NormalFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7F34C0C625D027E8007E7B23 /* DPFileManager.h */,
+				7F34C0C725D027E8007E7B23 /* DPFileManager.m */,
+				7F34C0CB25D02801007E7B23 /* DPIFile.h */,
+				7F34C0D325D02B82007E7B23 /* DPConfigFactory.h */,
+				7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */,
+				7F34C0D825D02BFA007E7B23 /* DPIConfigFacotry.h */,
+				7F34C0DB25D02DD5007E7B23 /* DPNormalFactory.h */,
+				7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */,
+			);
+			path = NormalFactory;
+			sourceTree = "<group>";
+		};
+		7F34C0E025D02EEA007E7B23 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7FBBF15925D03251007CF6B0 /* AbstractFactory */,
+				7F887EEF25CEE1E0002E99FF /* DPRuleConfigSource.h */,
+				7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */,
+				7F887EE725CEDF1D002E99FF /* DPIRuleConfigParser.h */,
+				7F887EEA25CEDF8D002E99FF /* DPRuleConfigParsers.h */,
+				7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */,
+				7F887EE125CEDD89002E99FF /* SimpleFactory */,
+				7F34C0C525D0274F007E7B23 /* NormalFactory */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		7F887EE125CEDD89002E99FF /* SimpleFactory */ = {
 			isa = PBXGroup;
 			children = (
 				7F887EE225CEDDB0002E99FF /* DPSimpleFactory.h */,
 				7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */,
-				7F887EE725CEDF1D002E99FF /* DPIRuleConfigParser.h */,
-				7F887EEA25CEDF8D002E99FF /* DPRuleConfigParsers.h */,
-				7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */,
-				7F887EEF25CEE1E0002E99FF /* DPRuleConfigSource.h */,
-				7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */,
 			);
-			path = Factory;
+			path = SimpleFactory;
 			sourceTree = "<group>";
 		};
 		7F8AFBF625CB829C000CE092 = {
@@ -112,7 +162,8 @@
 		7F8AFC0125CB829C000CE092 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				7F887EE125CEDD89002E99FF /* Factory */,
+				7FBBF16125D03D8D007CF6B0 /* Builder */,
+				7F34C0E025D02EEA007E7B23 /* Factory */,
 				7F8AFC2525CB93EB000CE092 /* Singleton */,
 				7F8AFC0225CB829C000CE092 /* main.m */,
 			);
@@ -127,6 +178,7 @@
 				7F8AFC1C25CB870A000CE092 /* DPSingletonTest.m */,
 				7F8AFC2D25CB9645000CE092 /* TestSw.swift */,
 				7F34C0B825CEE72E007E7B23 /* DPFacotry.m */,
+				7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -141,6 +193,25 @@
 				7F8AFC2725CB942E000CE092 /* Test-Bridging-Header.h */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		7FBBF15925D03251007CF6B0 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7FBBF15A25D032D0007CF6B0 /* DPISYSConfigParser.h */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		7FBBF16125D03D8D007CF6B0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7FBBF16D25D03EE9007CF6B0 /* DPBuilderConfig.h */,
+				7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */,
+				7FBBF17325D03F4C007CF6B0 /* DPBuiler.h */,
+				7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +304,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */,
+				7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */,
 				7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */,
+				7F34C0DD25D02DD5007E7B23 /* DPNormalFactory.m in Sources */,
+				7FBBF16F25D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
+				7F34C0D525D02B82007E7B23 /* DPConfigFactory.m in Sources */,
+				7F34C0C825D027E8007E7B23 /* DPFileManager.m in Sources */,
 				7F8AFC2925CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7F8AFC0325CB829C000CE092 /* main.m in Sources */,
 				7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */,
@@ -245,7 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */,
 				7F34C0AF25CEE70C007E7B23 /* DPSimpleFactory.m in Sources */,
+				7FBBF17625D03F4C007CF6B0 /* DPBuiler.m in Sources */,
 				7F34C0B225CEE714007E7B23 /* DPRuleConfigParsers.m in Sources */,
 				7F34C0B525CEE717007E7B23 /* DPRuleConfigSource.m in Sources */,
 				7F8AFC2225CB8FF5000CE092 /* DPSingleton.m in Sources */,
@@ -253,7 +331,11 @@
 				7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7F8AFC1525CB8692000CE092 /* Test.m in Sources */,
 				7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */,
+				7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */,
+				7FBBF17025D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
+				7FBBF17A25D044BB007CF6B0 /* DPBuilderTest.m in Sources */,
 				7F8AFC1D25CB870A000CE092 /* DPSingletonTest.m in Sources */,
+				7FBBF16425D03E88007CF6B0 /* DPNormalFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
