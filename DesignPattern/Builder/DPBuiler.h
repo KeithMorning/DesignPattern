@@ -8,6 +8,12 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class DPBuiler;
+
+typedef DPBuiler *(^intblock)(NSInteger value);
+typedef DPBuiler *(^boolblock)(BOOL value);
+typedef DPBuiler *(^stringBlock)(NSString *value);
+typedef DPBuiler *(^voidblock)(void);
 
 @interface DPBuiler : NSObject
 
@@ -19,12 +25,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign,readonly) NSString *configname;
 
-- (instancetype)setMax:(NSInteger)value;
-- (instancetype)setMin:(NSInteger)value;
-- (instancetype)setDebugMode:(BOOL)debugMode;
-- (instancetype)setName:(NSString *)name;
+- (intblock)setMax;
+- (intblock)setMin;
+- (boolblock)setDebugMode;
+- (stringBlock)setName;
 
-- (void)build;
+- (voidblock)build;
 
 @end
 

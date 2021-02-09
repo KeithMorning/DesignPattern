@@ -23,14 +23,11 @@
 }
 
 - (void)testBuilderConfig {
-    DPBuilderConfig *config = [DPBuilderConfig new];
-    [config makeConfigBuilder:^DPBuiler *(DPBuiler * config) {
-        DPBuiler *builderconfig = [[[[config setName:@"testname"]
-                    setMin:3]
-                    setMax:10]
-                setDebugMode:YES];
-        [builderconfig build];
-        return builderconfig;
+    DPBuilderConfig *config = [DPBuilderConfig new];    
+    [config makeConfigBuilder:^DPBuiler *(DPBuiler * _Nonnull buildconfig) {
+        buildconfig.setMin(3).setMax(10).setDebugMode(YES).setName(@"testname").build();
+        return buildconfig;
+        
     }];
     
     XCTAssertEqual(config.configname, @"testname");
