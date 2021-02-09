@@ -33,6 +33,9 @@
 		7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */; };
 		7FBBF17625D03F4C007CF6B0 /* DPBuiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */; };
 		7FBBF17A25D044BB007CF6B0 /* DPBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */; };
+		7FBBF18525D2C94B007CF6B0 /* DSCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF18425D2C94B007CF6B0 /* DSCar.swift */; };
+		7FBBF18625D2C94B007CF6B0 /* DSCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF18425D2C94B007CF6B0 /* DSCar.swift */; };
+		7FBBF18E25D2E018007CF6B0 /* TestPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBBF18D25D2E018007CF6B0 /* TestPrototype.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +85,8 @@
 		7FBBF17325D03F4C007CF6B0 /* DPBuiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBuiler.h; sourceTree = "<group>"; };
 		7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuiler.m; sourceTree = "<group>"; };
 		7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuilderTest.m; sourceTree = "<group>"; };
+		7FBBF18425D2C94B007CF6B0 /* DSCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSCar.swift; sourceTree = "<group>"; };
+		7FBBF18D25D2E018007CF6B0 /* TestPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrototype.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +167,7 @@
 		7F8AFC0125CB829C000CE092 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7FBBF18325D2C91F007CF6B0 /* Prototype */,
 				7FBBF16125D03D8D007CF6B0 /* Builder */,
 				7F34C0E025D02EEA007E7B23 /* Factory */,
 				7F8AFC2525CB93EB000CE092 /* Singleton */,
@@ -179,6 +185,7 @@
 				7F8AFC2D25CB9645000CE092 /* TestSw.swift */,
 				7F34C0B825CEE72E007E7B23 /* DPFacotry.m */,
 				7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */,
+				7FBBF18D25D2E018007CF6B0 /* TestPrototype.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -212,6 +219,14 @@
 				7FBBF17425D03F4C007CF6B0 /* DPBuiler.m */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		7FBBF18325D2C91F007CF6B0 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				7FBBF18425D2C94B007CF6B0 /* DSCar.swift */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBBF18525D2C94B007CF6B0 /* DSCar.swift in Sources */,
 				7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */,
 				7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */,
 				7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */,
@@ -329,7 +345,9 @@
 				7F8AFC2225CB8FF5000CE092 /* DPSingleton.m in Sources */,
 				7F8AFC2E25CB9645000CE092 /* TestSw.swift in Sources */,
 				7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */,
+				7FBBF18625D2C94B007CF6B0 /* DSCar.swift in Sources */,
 				7F8AFC1525CB8692000CE092 /* Test.m in Sources */,
+				7FBBF18E25D2E018007CF6B0 /* TestPrototype.swift in Sources */,
 				7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */,
 				7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */,
 				7FBBF17025D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
