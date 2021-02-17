@@ -14,6 +14,9 @@
 		7F34C0C825D027E8007E7B23 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0C725D027E8007E7B23 /* DPFileManager.m */; };
 		7F34C0D525D02B82007E7B23 /* DPConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */; };
 		7F34C0DD25D02DD5007E7B23 /* DPNormalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */; };
+		7F81539425DD48D600B68817 /* DiscountStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81539325DD48D600B68817 /* DiscountStrategy.swift */; };
+		7F81539525DD48D600B68817 /* DiscountStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81539325DD48D600B68817 /* DiscountStrategy.swift */; };
+		7F81539B25DD519D00B68817 /* TestStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81539A25DD519D00B68817 /* TestStrategy.swift */; };
 		7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */; };
 		7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EEB25CEDF8D002E99FF /* DPRuleConfigParsers.m */; };
 		7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F887EF025CEE1E0002E99FF /* DPRuleConfigSource.m */; };
@@ -56,6 +59,11 @@
 		7F97F8FC25DD014400ABC845 /* CoffeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8FB25DD014400ABC845 /* CoffeShop.swift */; };
 		7F97F8FD25DD014400ABC845 /* CoffeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8FB25DD014400ABC845 /* CoffeShop.swift */; };
 		7F97F90A25DD027300ABC845 /* TestDecorate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F90925DD027300ABC845 /* TestDecorate.swift */; };
+		7F97F90F25DD08A200ABC845 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F90E25DD08A200ABC845 /* Camera.swift */; };
+		7F97F91025DD08A200ABC845 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F90E25DD08A200ABC845 /* Camera.swift */; };
+		7F97F91625DD095A00ABC845 /* EZCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F91525DD095A00ABC845 /* EZCamera.swift */; };
+		7F97F91725DD095A00ABC845 /* EZCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F91525DD095A00ABC845 /* EZCamera.swift */; };
+		7F97F91B25DD0AAC00ABC845 /* TestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F91A25DD0AAC00ABC845 /* TestAdapter.swift */; };
 		7FBBF16425D03E88007CF6B0 /* DPNormalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */; };
 		7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */; };
 		7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0C725D027E8007E7B23 /* DPFileManager.m */; };
@@ -91,6 +99,8 @@
 		7F34C0D825D02BFA007E7B23 /* DPIConfigFacotry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPIConfigFacotry.h; sourceTree = "<group>"; };
 		7F34C0DB25D02DD5007E7B23 /* DPNormalFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPNormalFactory.h; sourceTree = "<group>"; };
 		7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPNormalFactory.m; sourceTree = "<group>"; };
+		7F81539325DD48D600B68817 /* DiscountStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountStrategy.swift; sourceTree = "<group>"; };
+		7F81539A25DD519D00B68817 /* TestStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStrategy.swift; sourceTree = "<group>"; };
 		7F887EE225CEDDB0002E99FF /* DPSimpleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSimpleFactory.h; sourceTree = "<group>"; };
 		7F887EE325CEDDB0002E99FF /* DPSimpleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSimpleFactory.m; sourceTree = "<group>"; };
 		7F887EE725CEDF1D002E99FF /* DPIRuleConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPIRuleConfigParser.h; sourceTree = "<group>"; };
@@ -130,6 +140,9 @@
 		7F97F8F425DCFF4500ABC845 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
 		7F97F8FB25DD014400ABC845 /* CoffeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShop.swift; sourceTree = "<group>"; };
 		7F97F90925DD027300ABC845 /* TestDecorate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDecorate.swift; sourceTree = "<group>"; };
+		7F97F90E25DD08A200ABC845 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		7F97F91525DD095A00ABC845 /* EZCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZCamera.swift; sourceTree = "<group>"; };
+		7F97F91A25DD0AAC00ABC845 /* TestAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAdapter.swift; sourceTree = "<group>"; };
 		7FBBF15A25D032D0007CF6B0 /* DPISYSConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPISYSConfigParser.h; sourceTree = "<group>"; };
 		7FBBF16D25D03EE9007CF6B0 /* DPBuilderConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBuilderConfig.h; sourceTree = "<group>"; };
 		7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuilderConfig.m; sourceTree = "<group>"; };
@@ -188,6 +201,14 @@
 			path = Factory;
 			sourceTree = "<group>";
 		};
+		7F81539225DD469B00B68817 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				7F81539325DD48D600B68817 /* DiscountStrategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		7F887EE125CEDD89002E99FF /* SimpleFactory */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +239,8 @@
 		7F8AFC0125CB829C000CE092 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7F81539225DD469B00B68817 /* Strategy */,
+				7F97F90D25DD045B00ABC845 /* Adpter */,
 				7F97F8F325DCFBD900ABC845 /* Decorate */,
 				7F97F8D325DCB15900ABC845 /* Bridge */,
 				7F97F89E25DB55FA00ABC845 /* Proxy */,
@@ -243,6 +266,8 @@
 				7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */,
 				7F97F8EF25DCF77D00ABC845 /* TestBridge.swift */,
 				7F97F90925DD027300ABC845 /* TestDecorate.swift */,
+				7F97F91A25DD0AAC00ABC845 /* TestAdapter.swift */,
+				7F81539A25DD519D00B68817 /* TestStrategy.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -311,6 +336,15 @@
 				7F97F8FB25DD014400ABC845 /* CoffeShop.swift */,
 			);
 			path = Decorate;
+			sourceTree = "<group>";
+		};
+		7F97F90D25DD045B00ABC845 /* Adpter */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F90E25DD08A200ABC845 /* Camera.swift */,
+				7F97F91525DD095A00ABC845 /* EZCamera.swift */,
+			);
+			path = Adpter;
 			sourceTree = "<group>";
 		};
 		7FBBF15925D03251007CF6B0 /* AbstractFactory */ = {
@@ -434,6 +468,7 @@
 				7F97F8E125DCF29300ABC845 /* Notifications.swift in Sources */,
 				7F97F8A225DB5E0100ABC845 /* IUser.swift in Sources */,
 				7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */,
+				7F97F91625DD095A00ABC845 /* EZCamera.swift in Sources */,
 				7F97F8FC25DD014400ABC845 /* CoffeShop.swift in Sources */,
 				7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */,
 				7F97F8B525DBC7AF00ABC845 /* UserProxyInherit.swift in Sources */,
@@ -446,6 +481,8 @@
 				7F34C0C825D027E8007E7B23 /* DPFileManager.m in Sources */,
 				7F8AFC2925CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7F8AFC0325CB829C000CE092 /* main.m in Sources */,
+				7F97F90F25DD08A200ABC845 /* Camera.swift in Sources */,
+				7F81539425DD48D600B68817 /* DiscountStrategy.swift in Sources */,
 				7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */,
 				7F8AFC0C25CB82DE000CE092 /* DPSingleton.m in Sources */,
 				7F97F8D525DCF16B00ABC845 /* Notification.swift in Sources */,
@@ -468,9 +505,11 @@
 				7F97F8F025DCF77D00ABC845 /* TestBridge.swift in Sources */,
 				7F97F8DD25DCF17900ABC845 /* MsgSender.swift in Sources */,
 				7F34C0AF25CEE70C007E7B23 /* DPSimpleFactory.m in Sources */,
+				7F81539B25DD519D00B68817 /* TestStrategy.swift in Sources */,
 				7FBBF17625D03F4C007CF6B0 /* DPBuiler.m in Sources */,
 				7F34C0B225CEE714007E7B23 /* DPRuleConfigParsers.m in Sources */,
 				7F97F8EC25DCF42200ABC845 /* NotificationCenter.swift in Sources */,
+				7F97F91725DD095A00ABC845 /* EZCamera.swift in Sources */,
 				7F34C0B525CEE717007E7B23 /* DPRuleConfigSource.m in Sources */,
 				7F97F8E225DCF29300ABC845 /* Notifications.swift in Sources */,
 				7F8AFC2225CB8FF5000CE092 /* DPSingleton.m in Sources */,
@@ -488,7 +527,10 @@
 				7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */,
 				7F97F8C225DBD50400ABC845 /* DTProxy.m in Sources */,
 				7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */,
+				7F97F91025DD08A200ABC845 /* Camera.swift in Sources */,
 				7F97F8D625DCF16B00ABC845 /* Notification.swift in Sources */,
+				7F81539525DD48D600B68817 /* DiscountStrategy.swift in Sources */,
+				7F97F91B25DD0AAC00ABC845 /* TestAdapter.swift in Sources */,
 				7F97F8E725DCF38400ABC845 /* MsgSenders.swift in Sources */,
 				7F97F8AF25DBC3D700ABC845 /* UserProxy.swift in Sources */,
 				7F97F8FD25DD014400ABC845 /* CoffeShop.swift in Sources */,
