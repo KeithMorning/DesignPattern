@@ -25,6 +25,21 @@
 		7F8AFC2925CB942E000CE092 /* SWSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC2825CB942E000CE092 /* SWSingleton.swift */; };
 		7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC2825CB942E000CE092 /* SWSingleton.swift */; };
 		7F8AFC2E25CB9645000CE092 /* TestSw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AFC2D25CB9645000CE092 /* TestSw.swift */; };
+		7F97F8A225DB5E0100ABC845 /* IUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8A125DB5E0100ABC845 /* IUser.swift */; };
+		7F97F8A325DB5E0100ABC845 /* IUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8A125DB5E0100ABC845 /* IUser.swift */; };
+		7F97F8A925DBC3A400ABC845 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8A825DBC3A400ABC845 /* LoginController.swift */; };
+		7F97F8AA25DBC3A400ABC845 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8A825DBC3A400ABC845 /* LoginController.swift */; };
+		7F97F8AE25DBC3D700ABC845 /* UserProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8AD25DBC3D700ABC845 /* UserProxy.swift */; };
+		7F97F8AF25DBC3D700ABC845 /* UserProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8AD25DBC3D700ABC845 /* UserProxy.swift */; };
+		7F97F8B525DBC7AF00ABC845 /* UserProxyInherit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8B425DBC7AF00ABC845 /* UserProxyInherit.swift */; };
+		7F97F8B625DBC7AF00ABC845 /* UserProxyInherit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8B425DBC7AF00ABC845 /* UserProxyInherit.swift */; };
+		7F97F8BB25DBD47900ABC845 /* DTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8BA25DBD47900ABC845 /* DTUser.m */; };
+		7F97F8BC25DBD47900ABC845 /* DTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8BA25DBD47900ABC845 /* DTUser.m */; };
+		7F97F8C125DBD50400ABC845 /* DTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8C025DBD50400ABC845 /* DTProxy.m */; };
+		7F97F8C225DBD50400ABC845 /* DTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8C025DBD50400ABC845 /* DTProxy.m */; };
+		7F97F8CA25DBDD9B00ABC845 /* DTProxyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */; };
+		7F97F8CF25DBDEC200ABC845 /* DTUserProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */; };
+		7F97F8D025DBDEC200ABC845 /* DTUserProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */; };
 		7FBBF16425D03E88007CF6B0 /* DPNormalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */; };
 		7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */; };
 		7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0C725D027E8007E7B23 /* DPFileManager.m */; };
@@ -79,6 +94,17 @@
 		7F8AFC2725CB942E000CE092 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
 		7F8AFC2825CB942E000CE092 /* SWSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SWSingleton.swift; path = Test/SWSingleton.swift; sourceTree = SOURCE_ROOT; };
 		7F8AFC2D25CB9645000CE092 /* TestSw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSw.swift; sourceTree = "<group>"; };
+		7F97F8A125DB5E0100ABC845 /* IUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUser.swift; sourceTree = "<group>"; };
+		7F97F8A825DBC3A400ABC845 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7F97F8AD25DBC3D700ABC845 /* UserProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProxy.swift; sourceTree = "<group>"; };
+		7F97F8B425DBC7AF00ABC845 /* UserProxyInherit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProxyInherit.swift; sourceTree = "<group>"; };
+		7F97F8B925DBD47900ABC845 /* DTUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTUser.h; sourceTree = "<group>"; };
+		7F97F8BA25DBD47900ABC845 /* DTUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTUser.m; sourceTree = "<group>"; };
+		7F97F8BF25DBD50400ABC845 /* DTProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTProxy.h; sourceTree = "<group>"; };
+		7F97F8C025DBD50400ABC845 /* DTProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTProxy.m; sourceTree = "<group>"; };
+		7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTProxyTest.m; sourceTree = "<group>"; };
+		7F97F8CD25DBDEC200ABC845 /* DTUserProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTUserProxy.h; sourceTree = "<group>"; };
+		7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTUserProxy.m; sourceTree = "<group>"; };
 		7FBBF15A25D032D0007CF6B0 /* DPISYSConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPISYSConfigParser.h; sourceTree = "<group>"; };
 		7FBBF16D25D03EE9007CF6B0 /* DPBuilderConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBuilderConfig.h; sourceTree = "<group>"; };
 		7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuilderConfig.m; sourceTree = "<group>"; };
@@ -167,6 +193,7 @@
 		7F8AFC0125CB829C000CE092 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7F97F89E25DB55FA00ABC845 /* Proxy */,
 				7FBBF18325D2C91F007CF6B0 /* Prototype */,
 				7FBBF16125D03D8D007CF6B0 /* Builder */,
 				7F34C0E025D02EEA007E7B23 /* Factory */,
@@ -186,6 +213,7 @@
 				7F34C0B825CEE72E007E7B23 /* DPFacotry.m */,
 				7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */,
 				7FBBF18D25D2E018007CF6B0 /* TestPrototype.swift */,
+				7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -200,6 +228,39 @@
 				7F8AFC2725CB942E000CE092 /* Test-Bridging-Header.h */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		7F97F89E25DB55FA00ABC845 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F8A025DB5D9C00ABC845 /* NormalProxy */,
+				7F97F89F25DB5D8700ABC845 /* NSProxy */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		7F97F89F25DB5D8700ABC845 /* NSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F8B925DBD47900ABC845 /* DTUser.h */,
+				7F97F8BA25DBD47900ABC845 /* DTUser.m */,
+				7F97F8BF25DBD50400ABC845 /* DTProxy.h */,
+				7F97F8C025DBD50400ABC845 /* DTProxy.m */,
+				7F97F8CD25DBDEC200ABC845 /* DTUserProxy.h */,
+				7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */,
+			);
+			path = NSProxy;
+			sourceTree = "<group>";
+		};
+		7F97F8A025DB5D9C00ABC845 /* NormalProxy */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F8A125DB5E0100ABC845 /* IUser.swift */,
+				7F97F8A825DBC3A400ABC845 /* LoginController.swift */,
+				7F97F8AD25DBC3D700ABC845 /* UserProxy.swift */,
+				7F97F8B425DBC7AF00ABC845 /* UserProxyInherit.swift */,
+			);
+			path = NormalProxy;
 			sourceTree = "<group>";
 		};
 		7FBBF15925D03251007CF6B0 /* AbstractFactory */ = {
@@ -320,8 +381,12 @@
 			files = (
 				7FBBF18525D2C94B007CF6B0 /* DSCar.swift in Sources */,
 				7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */,
+				7F97F8A225DB5E0100ABC845 /* IUser.swift in Sources */,
 				7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */,
 				7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */,
+				7F97F8B525DBC7AF00ABC845 /* UserProxyInherit.swift in Sources */,
+				7F97F8CF25DBDEC200ABC845 /* DTUserProxy.m in Sources */,
+				7F97F8AE25DBC3D700ABC845 /* UserProxy.swift in Sources */,
 				7F34C0DD25D02DD5007E7B23 /* DPNormalFactory.m in Sources */,
 				7FBBF16F25D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
 				7F34C0D525D02B82007E7B23 /* DPConfigFactory.m in Sources */,
@@ -330,6 +395,9 @@
 				7F8AFC0325CB829C000CE092 /* main.m in Sources */,
 				7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */,
 				7F8AFC0C25CB82DE000CE092 /* DPSingleton.m in Sources */,
+				7F97F8C125DBD50400ABC845 /* DTProxy.m in Sources */,
+				7F97F8A925DBC3A400ABC845 /* LoginController.swift in Sources */,
+				7F97F8BB25DBD47900ABC845 /* DTUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +405,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F97F8AA25DBC3A400ABC845 /* LoginController.swift in Sources */,
+				7F97F8D025DBDEC200ABC845 /* DTUserProxy.m in Sources */,
 				7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */,
 				7F34C0AF25CEE70C007E7B23 /* DPSimpleFactory.m in Sources */,
 				7FBBF17625D03F4C007CF6B0 /* DPBuiler.m in Sources */,
@@ -346,10 +416,16 @@
 				7F8AFC2E25CB9645000CE092 /* TestSw.swift in Sources */,
 				7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7FBBF18625D2C94B007CF6B0 /* DSCar.swift in Sources */,
+				7F97F8CA25DBDD9B00ABC845 /* DTProxyTest.m in Sources */,
+				7F97F8A325DB5E0100ABC845 /* IUser.swift in Sources */,
 				7F8AFC1525CB8692000CE092 /* Test.m in Sources */,
+				7F97F8BC25DBD47900ABC845 /* DTUser.m in Sources */,
 				7FBBF18E25D2E018007CF6B0 /* TestPrototype.swift in Sources */,
+				7F97F8B625DBC7AF00ABC845 /* UserProxyInherit.swift in Sources */,
 				7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */,
+				7F97F8C225DBD50400ABC845 /* DTProxy.m in Sources */,
 				7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */,
+				7F97F8AF25DBC3D700ABC845 /* UserProxy.swift in Sources */,
 				7FBBF17025D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
 				7FBBF17A25D044BB007CF6B0 /* DPBuilderTest.m in Sources */,
 				7F8AFC1D25CB870A000CE092 /* DPSingletonTest.m in Sources */,
