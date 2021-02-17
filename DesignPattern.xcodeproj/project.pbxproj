@@ -40,6 +40,22 @@
 		7F97F8CA25DBDD9B00ABC845 /* DTProxyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */; };
 		7F97F8CF25DBDEC200ABC845 /* DTUserProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */; };
 		7F97F8D025DBDEC200ABC845 /* DTUserProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */; };
+		7F97F8D525DCF16B00ABC845 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8D425DCF16B00ABC845 /* Notification.swift */; };
+		7F97F8D625DCF16B00ABC845 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8D425DCF16B00ABC845 /* Notification.swift */; };
+		7F97F8DC25DCF17900ABC845 /* MsgSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8DB25DCF17900ABC845 /* MsgSender.swift */; };
+		7F97F8DD25DCF17900ABC845 /* MsgSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8DB25DCF17900ABC845 /* MsgSender.swift */; };
+		7F97F8E125DCF29300ABC845 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8E025DCF29300ABC845 /* Notifications.swift */; };
+		7F97F8E225DCF29300ABC845 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8E025DCF29300ABC845 /* Notifications.swift */; };
+		7F97F8E625DCF38400ABC845 /* MsgSenders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8E525DCF38400ABC845 /* MsgSenders.swift */; };
+		7F97F8E725DCF38400ABC845 /* MsgSenders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8E525DCF38400ABC845 /* MsgSenders.swift */; };
+		7F97F8EB25DCF42200ABC845 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8EA25DCF42200ABC845 /* NotificationCenter.swift */; };
+		7F97F8EC25DCF42200ABC845 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8EA25DCF42200ABC845 /* NotificationCenter.swift */; };
+		7F97F8F025DCF77D00ABC845 /* TestBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8EF25DCF77D00ABC845 /* TestBridge.swift */; };
+		7F97F8F525DCFF4500ABC845 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8F425DCFF4500ABC845 /* Drinks.swift */; };
+		7F97F8F625DCFF4500ABC845 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8F425DCFF4500ABC845 /* Drinks.swift */; };
+		7F97F8FC25DD014400ABC845 /* CoffeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8FB25DD014400ABC845 /* CoffeShop.swift */; };
+		7F97F8FD25DD014400ABC845 /* CoffeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F8FB25DD014400ABC845 /* CoffeShop.swift */; };
+		7F97F90A25DD027300ABC845 /* TestDecorate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F90925DD027300ABC845 /* TestDecorate.swift */; };
 		7FBBF16425D03E88007CF6B0 /* DPNormalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0DC25D02DD5007E7B23 /* DPNormalFactory.m */; };
 		7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0D425D02B82007E7B23 /* DPConfigFactory.m */; };
 		7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34C0C725D027E8007E7B23 /* DPFileManager.m */; };
@@ -105,6 +121,15 @@
 		7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTProxyTest.m; sourceTree = "<group>"; };
 		7F97F8CD25DBDEC200ABC845 /* DTUserProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTUserProxy.h; sourceTree = "<group>"; };
 		7F97F8CE25DBDEC200ABC845 /* DTUserProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTUserProxy.m; sourceTree = "<group>"; };
+		7F97F8D425DCF16B00ABC845 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		7F97F8DB25DCF17900ABC845 /* MsgSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgSender.swift; sourceTree = "<group>"; };
+		7F97F8E025DCF29300ABC845 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		7F97F8E525DCF38400ABC845 /* MsgSenders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgSenders.swift; sourceTree = "<group>"; };
+		7F97F8EA25DCF42200ABC845 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		7F97F8EF25DCF77D00ABC845 /* TestBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBridge.swift; sourceTree = "<group>"; };
+		7F97F8F425DCFF4500ABC845 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		7F97F8FB25DD014400ABC845 /* CoffeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShop.swift; sourceTree = "<group>"; };
+		7F97F90925DD027300ABC845 /* TestDecorate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDecorate.swift; sourceTree = "<group>"; };
 		7FBBF15A25D032D0007CF6B0 /* DPISYSConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPISYSConfigParser.h; sourceTree = "<group>"; };
 		7FBBF16D25D03EE9007CF6B0 /* DPBuilderConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBuilderConfig.h; sourceTree = "<group>"; };
 		7FBBF16E25D03EE9007CF6B0 /* DPBuilderConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBuilderConfig.m; sourceTree = "<group>"; };
@@ -193,6 +218,8 @@
 		7F8AFC0125CB829C000CE092 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7F97F8F325DCFBD900ABC845 /* Decorate */,
+				7F97F8D325DCB15900ABC845 /* Bridge */,
 				7F97F89E25DB55FA00ABC845 /* Proxy */,
 				7FBBF18325D2C91F007CF6B0 /* Prototype */,
 				7FBBF16125D03D8D007CF6B0 /* Builder */,
@@ -214,6 +241,8 @@
 				7FBBF17925D044BB007CF6B0 /* DPBuilderTest.m */,
 				7FBBF18D25D2E018007CF6B0 /* TestPrototype.swift */,
 				7F97F8C925DBDD9B00ABC845 /* DTProxyTest.m */,
+				7F97F8EF25DCF77D00ABC845 /* TestBridge.swift */,
+				7F97F90925DD027300ABC845 /* TestDecorate.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -261,6 +290,27 @@
 				7F97F8B425DBC7AF00ABC845 /* UserProxyInherit.swift */,
 			);
 			path = NormalProxy;
+			sourceTree = "<group>";
+		};
+		7F97F8D325DCB15900ABC845 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F8D425DCF16B00ABC845 /* Notification.swift */,
+				7F97F8DB25DCF17900ABC845 /* MsgSender.swift */,
+				7F97F8E025DCF29300ABC845 /* Notifications.swift */,
+				7F97F8E525DCF38400ABC845 /* MsgSenders.swift */,
+				7F97F8EA25DCF42200ABC845 /* NotificationCenter.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		7F97F8F325DCFBD900ABC845 /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F8F425DCFF4500ABC845 /* Drinks.swift */,
+				7F97F8FB25DD014400ABC845 /* CoffeShop.swift */,
+			);
+			path = Decorate;
 			sourceTree = "<group>";
 		};
 		7FBBF15925D03251007CF6B0 /* AbstractFactory */ = {
@@ -381,13 +431,16 @@
 			files = (
 				7FBBF18525D2C94B007CF6B0 /* DSCar.swift in Sources */,
 				7F887EEC25CEDF8D002E99FF /* DPRuleConfigParsers.m in Sources */,
+				7F97F8E125DCF29300ABC845 /* Notifications.swift in Sources */,
 				7F97F8A225DB5E0100ABC845 /* IUser.swift in Sources */,
 				7FBBF17525D03F4C007CF6B0 /* DPBuiler.m in Sources */,
+				7F97F8FC25DD014400ABC845 /* CoffeShop.swift in Sources */,
 				7F887EE425CEDDB0002E99FF /* DPSimpleFactory.m in Sources */,
 				7F97F8B525DBC7AF00ABC845 /* UserProxyInherit.swift in Sources */,
 				7F97F8CF25DBDEC200ABC845 /* DTUserProxy.m in Sources */,
 				7F97F8AE25DBC3D700ABC845 /* UserProxy.swift in Sources */,
 				7F34C0DD25D02DD5007E7B23 /* DPNormalFactory.m in Sources */,
+				7F97F8F525DCFF4500ABC845 /* Drinks.swift in Sources */,
 				7FBBF16F25D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
 				7F34C0D525D02B82007E7B23 /* DPConfigFactory.m in Sources */,
 				7F34C0C825D027E8007E7B23 /* DPFileManager.m in Sources */,
@@ -395,7 +448,11 @@
 				7F8AFC0325CB829C000CE092 /* main.m in Sources */,
 				7F887EF125CEE1E0002E99FF /* DPRuleConfigSource.m in Sources */,
 				7F8AFC0C25CB82DE000CE092 /* DPSingleton.m in Sources */,
+				7F97F8D525DCF16B00ABC845 /* Notification.swift in Sources */,
+				7F97F8E625DCF38400ABC845 /* MsgSenders.swift in Sources */,
+				7F97F8EB25DCF42200ABC845 /* NotificationCenter.swift in Sources */,
 				7F97F8C125DBD50400ABC845 /* DTProxy.m in Sources */,
+				7F97F8DC25DCF17900ABC845 /* MsgSender.swift in Sources */,
 				7F97F8A925DBC3A400ABC845 /* LoginController.swift in Sources */,
 				7F97F8BB25DBD47900ABC845 /* DTUser.m in Sources */,
 			);
@@ -408,11 +465,17 @@
 				7F97F8AA25DBC3A400ABC845 /* LoginController.swift in Sources */,
 				7F97F8D025DBDEC200ABC845 /* DTUserProxy.m in Sources */,
 				7FBBF16725D03E9F007CF6B0 /* DPConfigFactory.m in Sources */,
+				7F97F8F025DCF77D00ABC845 /* TestBridge.swift in Sources */,
+				7F97F8DD25DCF17900ABC845 /* MsgSender.swift in Sources */,
 				7F34C0AF25CEE70C007E7B23 /* DPSimpleFactory.m in Sources */,
 				7FBBF17625D03F4C007CF6B0 /* DPBuiler.m in Sources */,
 				7F34C0B225CEE714007E7B23 /* DPRuleConfigParsers.m in Sources */,
+				7F97F8EC25DCF42200ABC845 /* NotificationCenter.swift in Sources */,
 				7F34C0B525CEE717007E7B23 /* DPRuleConfigSource.m in Sources */,
+				7F97F8E225DCF29300ABC845 /* Notifications.swift in Sources */,
 				7F8AFC2225CB8FF5000CE092 /* DPSingleton.m in Sources */,
+				7F97F90A25DD027300ABC845 /* TestDecorate.swift in Sources */,
+				7F97F8F625DCFF4500ABC845 /* Drinks.swift in Sources */,
 				7F8AFC2E25CB9645000CE092 /* TestSw.swift in Sources */,
 				7F8AFC2A25CB942E000CE092 /* SWSingleton.swift in Sources */,
 				7FBBF18625D2C94B007CF6B0 /* DSCar.swift in Sources */,
@@ -425,7 +488,10 @@
 				7F34C0B925CEE72E007E7B23 /* DPFacotry.m in Sources */,
 				7F97F8C225DBD50400ABC845 /* DTProxy.m in Sources */,
 				7FBBF16A25D03EA2007CF6B0 /* DPFileManager.m in Sources */,
+				7F97F8D625DCF16B00ABC845 /* Notification.swift in Sources */,
+				7F97F8E725DCF38400ABC845 /* MsgSenders.swift in Sources */,
 				7F97F8AF25DBC3D700ABC845 /* UserProxy.swift in Sources */,
+				7F97F8FD25DD014400ABC845 /* CoffeShop.swift in Sources */,
 				7FBBF17025D03EE9007CF6B0 /* DPBuilderConfig.m in Sources */,
 				7FBBF17A25D044BB007CF6B0 /* DPBuilderTest.m in Sources */,
 				7F8AFC1D25CB870A000CE092 /* DPSingletonTest.m in Sources */,
